@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	color: white;
+	margin: 0;
+	background-color: #8EA3FA;
+}
+
+h1 {
+	margin: 0;
+}
+
+
+.main {
+	background: rgb(142,163,250);
+background: linear-gradient(90deg, rgba(142,163,250,1) 0%, rgba(178,20,250,1) 15%, rgba(178,20,250,1) 50%, rgba(178,20,250,1) 85%, rgba(142,163,250,1) 100%);
+	width: 45%;
+	margin: 0 auto;
+	background-color: #B214FA;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+button {
+	width: 40px;
+	height: 40px;
+	margin: 8px;
+	border: none;
+	outline: none;
+	background-color: violet;
+	border-radius: 10px;
+	color: white;
+	transition: 0.3s;
+}
+
+.new {
+	width: 85%;
+}
+
+hr {
+	height: 5px;
+	background-color: white;
+	border: none;
+	width: 85%;
+	border-radius: 6px;
+}
+button:hover {
+	background-color: purple;
+	cursor: pointer;
+}
